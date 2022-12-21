@@ -1,0 +1,66 @@
+@font-face {
+      font-family: myFirstFont;
+      src: url("Norse-Bold.otf");
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.left_container {
+    position: relative;
+    color: white;
+    width:40vw ;
+    height: 100vh;
+    background-image: url("P0SKdb6gmbKO9B7CqqDj_2x.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+}
+
+.right_container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    background-color: rgb(220, 255, 252);
+}
+
+.odin_logo {
+    font-size: 4rem;
+    font-family: myFirstFont;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 120px;
+    width: inherit;
+    
+    background-color: rgba(0, 0, 0, 0.32);
+    top: 20%;
+}
+
+.up_container, .bottom_container {
+    padding: 2rem;
+}
+.bottom_container {margin-bottom: 0px;}
+
+span.small_font {
+    font-size: 1.6rem;
+    margin-left: 2ch;
+}
+.odin_logo::before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-image: url("odin-lined.png");
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
