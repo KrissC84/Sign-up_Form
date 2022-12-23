@@ -17,6 +17,7 @@ function passCheck() {
 
     } else {
        con_password.classList.add('input_wrong');
+       con_password
         console.log(password.value);
     };
 }

@@ -62,7 +62,7 @@ body {
   background: linear-gradient(180deg, white, rgb(246, 255, 252));
 }
 .bottom_container {
-  background: linear-gradient(0deg,white, rgb(246, 255, 252));
+  background: linear-gradient(0deg, white, rgb(246, 255, 252));
 }
 
 .middle_container {
@@ -73,8 +73,7 @@ body {
 }
 
 .up_container,
-.bottom_container,
-.middle_container {
+.bottom_container {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -104,7 +103,7 @@ li {
 label,
 input {
   padding: 0.1rem;
- margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 input {
@@ -113,7 +112,7 @@ input {
   border-radius: 5px;
   border: 1px solid gray;
   padding-left: 1em;
-  padding-bottom: .3em;
+  padding-bottom: 0.3em;
 }
 
 .input_group {
@@ -132,4 +131,7 @@ button {
   border-radius: 15px;
   margin-left: 3em;
   margin-bottom: 2em;
+}
+label {
+  margin-top: 1rem;
 }
