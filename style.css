@@ -55,6 +55,7 @@ body {
   justify-content: center;
   box-shadow: 2px 5px 15px rgb(246, 255, 252);
   flex-shrink: 2;
+  padding-right: 2rem;
 }
 
 .up_container {
@@ -103,11 +104,11 @@ li {
 label,
 input {
   padding: 0.1rem;
-  margin: 0.1rem 0.3rem 0.1rem;
+ margin-right: 2rem;
 }
 
 input {
-  width: calc(24ch + 3vw);
+  width: calc(12ch + 5vw);
   margin-bottom: 2em;
   border-radius: 5px;
   border: 1px solid gray;
@@ -119,6 +120,10 @@ input {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.input_wrong {
+  border: 1px solid red;
 }
 
 button {
